@@ -7,13 +7,13 @@ settings:
 dependencies:
   next:
     specifier: 14.0.3
-    version: 14.0.3(react-dom@18.2.0)(react@18.2.0)
+    version: 14.0.3(react-dom@18.3.0-canary-5dd35968b-20231201)(react@18.3.0-canary-5dd35968b-20231201)
   react:
-    specifier: ^18
-    version: 18.2.0
+    specifier: 18.3.0-canary-5dd35968b-20231201
+    version: 18.3.0-canary-5dd35968b-20231201
   react-dom:
-    specifier: ^18
-    version: 18.2.0(react@18.2.0)
+    specifier: 18.3.0-canary-5dd35968b-20231201
+    version: 18.3.0-canary-5dd35968b-20231201(react@18.3.0-canary-5dd35968b-20231201)
 
 packages:
 
@@ -148,7 +148,7 @@ packages:
     hasBin: true
     dev: false
 
-  /next@14.0.3(react-dom@18.2.0)(react@18.2.0):
+  /next@14.0.3(react-dom@18.3.0-canary-5dd35968b-20231201)(react@18.3.0-canary-5dd35968b-20231201):
     resolution: {integrity: sha512-AbYdRNfImBr3XGtvnwOxq8ekVCwbFTv/UJoLwmaX89nk9i051AEY4/HAWzU0YpaTDw8IofUpmuIlvzWF13jxIw==}
     engines: {node: '>=18.17.0'}
     hasBin: true
@@ -168,9 +168,9 @@ packages:
       busboy: 1.6.0
       caniuse-lite: 1.0.30001565
       postcss: 8.4.31
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-      styled-jsx: 5.1.1(react@18.2.0)
+      react: 18.3.0-canary-5dd35968b-20231201
+      react-dom: 18.3.0-canary-5dd35968b-20231201(react@18.3.0-canary-5dd35968b-20231201)
+      styled-jsx: 5.1.1(react@18.3.0-canary-5dd35968b-20231201)
       watchpack: 2.4.0
     optionalDependencies:
       '@next/swc-darwin-arm64': 14.0.3
@@ -200,25 +200,25 @@ packages:
       source-map-js: 1.0.2
     dev: false
 
-  /react-dom@18.2.0(react@18.2.0):
-    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
+  /react-dom@18.3.0-canary-5dd35968b-20231201(react@18.3.0-canary-5dd35968b-20231201):
+    resolution: {integrity: sha512-4n+L3IJ7PNirUECE8eH/N0LljzEGVMvfFaPHLtudFiF1ZBHHYYgMiO1LQ1YkQca26zqDBlt9WX2u7ieS2VFr0w==}
     peerDependencies:
-      react: ^18.2.0
+      react: 18.3.0-canary-5dd35968b-20231201
     dependencies:
       loose-envify: 1.4.0
-      react: 18.2.0
-      scheduler: 0.23.0
+      react: 18.3.0-canary-5dd35968b-20231201
+      scheduler: 0.24.0-canary-5dd35968b-20231201
     dev: false
 
-  /react@18.2.0:
-    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
+  /react@18.3.0-canary-5dd35968b-20231201:
+    resolution: {integrity: sha512-IN8iRGvOkx5aZ8aX1SjRs+Jrjzyj0YZEq1jkCTOiodAxmFsZaX562pQeKzuVv1VcieQpciS5A9LYGulC08i5hg==}
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
     dev: false
 
-  /scheduler@0.23.0:
-    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
+  /scheduler@0.24.0-canary-5dd35968b-20231201:
+    resolution: {integrity: sha512-LXhiCqTjbQov/xjwk5TRGfLVAYQca4xkgJv7hERjQCxg6Ff+WTgcFHK/kLSqVANlw6f/DBqMnU8JaqyB0aLnFg==}
     dependencies:
       loose-envify: 1.4.0
     dev: false
@@ -233,7 +233,7 @@ packages:
     engines: {node: '>=10.0.0'}
     dev: false
 
-  /styled-jsx@5.1.1(react@18.2.0):
+  /styled-jsx@5.1.1(react@18.3.0-canary-5dd35968b-20231201):
     resolution: {integrity: sha512-pW7uC1l4mBZ8ugbiZrcIsiIvVx1UmTfw7UkC3Um2tmfUq9Bhk8IiyEIPl6F8agHgjzku6j0xQEZbfA5uSgSaCw==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
@@ -247,7 +247,7 @@ packages:
         optional: true
     dependencies:
       client-only: 0.0.1
-      react: 18.2.0
+      react: 18.3.0-canary-5dd35968b-20231201
     dev: false
 
   /tslib@2.6.2:
